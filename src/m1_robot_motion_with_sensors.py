@@ -155,7 +155,7 @@ class SimpleRoseBot(object):
         while current - start < seconds:
             current = time.time()
         self.stop()
-        
+
     def go_straight_for_inches(self, inches, speed):
         self.right_motor.reset_position()
         self.left_motor.reset_position()
